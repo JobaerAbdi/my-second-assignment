@@ -41,11 +41,16 @@ header{
 .image-site img{
     height: 700PX;
 }
+.players-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
-    width: 62%;
+    width: 60%;
 }
 
 .button button{
@@ -70,11 +75,11 @@ header{
     background-color: black;
     padding: 10px 25px;
     width: 325px;
+    height: 250px;
     border-radius: 20px;
+    margin-right: 75px;
 }
-.parent-div{
-    
-}
+
 .information-site .update p{
     border: 2px solid black;
     padding: 10px 35px;
