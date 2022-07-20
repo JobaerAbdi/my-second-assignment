@@ -41,6 +41,10 @@ header{
 .image-site img{
     height: 700PX;
 }
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .icon-site{
     display: flex;
     justify-content: space-between;
