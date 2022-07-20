@@ -41,3 +41,7 @@ header{
 .image-site img{
     height: 700PX;
 }
+.icon-site{
+    display: flex;
+    justify-content: space-between;
+}
