@@ -44,7 +44,7 @@ header{
 .players-section{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .players{
     display: grid;
@@ -100,4 +100,27 @@ header{
     border-radius: 10px;
     color: white;
     background-color: red;
+}
+.footer-site{
+    background-color: black;
+    margin-top: 140px;
+}
+.footer-name{
+    color: wheat;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 110px;
+}
+hr{
+    background: gray;
+    width: 1300px;
+}
+.footer-policy{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-policy a{
+    text-decoration: none;
+    color: wheat;
 }
