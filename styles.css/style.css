@@ -47,9 +47,6 @@ header{
     height: 700PX;
 }
 
-.transition:hover{
-
-}
 .players-section{
     display: flex;
     justify-content: center;
