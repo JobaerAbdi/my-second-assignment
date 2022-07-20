@@ -44,9 +44,55 @@ header{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
+    width: 62%;
 }
-/* .icon-site{
-    display: flex;
-    justify-content: space-between;
-} */
+
+.button button{
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 15px;
+}
+.text-info{
+    width: 270px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.fa-comment-dots{
+    margin-left: 30px;
+}
+.icon-site span{
+    margin-left: 8px;
+}
+.information-site{
+    background-color: black;
+    padding: 10px 25px;
+    width: 325px;
+    border-radius: 20px;
+}
+.parent-div{
+    
+}
+.information-site .update p{
+    border: 2px solid black;
+    padding: 10px 35px;
+    font-size: 20px;
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.blogs p{
+    border: 2px solid black;
+    padding: 15px 35px;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+}
