@@ -124,3 +124,25 @@ hr{
     text-decoration: none;
     color: wheat;
 }
+
+@media only screen and (max-width:688px){
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.social-icon{
+    color: wheat;
+    font-size: 30px;
+    text-align: center;
+}
+.social-icon i{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.text-info{
+    margin-left: 30px;
+}
+span{
+    margin-right: 10px;
+    margin-left: 10px;
+}
